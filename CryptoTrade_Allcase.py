@@ -125,10 +125,10 @@ def Short(exposition ,crypto_value, fluct_pourcent, stop_loss=30):
         |           Position liquidée pour une fluctuation de : +{liquid*100} %               
         |           stop_loss : {stop_loss*100} %                                         
         |           Fixez l'arrêt du Trade pour une crypto_value de {stop_crypto_value} € 
-        |                    |=======================================|                    
-        |                    | Bénéfice potentiel    : {benefit} €   |                   
-        |                    | Perte max potentielle : {loss} €      |                    
-        |                    |=======================================|                    
+        |                    |=======================================                    
+        |                    | Bénéfice potentiel    : {benefit} €                      
+        |                    | Perte max potentielle : {loss} €                          
+        |                    |=======================================                    
         ==================================================================================       
                             """)
         print()
